@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Business Cards</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Anton|Nunito:300,400" rel="stylesheet">
+  <style>
+    body {
+      background-color: #4a4a4d;
+      font-family: 'Nunito', sans-serif;
+      font-weight: 300;
+      font-size: 16px;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+    .biz-card-a, .biz-card-b {
+      background-color: #f2f2f2;
+      padding: 10px;
+      transition: 0.2s ease;
+      border-radius: 18px;
+      position: relative;
+    }
+
+    .biz-card-a {
+      border-top-left-radius: 18px;
+      border-bottom-left-radius: 18px;
+    }
+
+    .biz-card-b {
+      border-top-right-radius: 18px;
+      border-bottom-right-radius: 18px;
+    }
+
+    .biz-headshot {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background-size: cover;
+      background-position: center;
+      border: 1px solid #d8d8d8;
+      margin: 25px auto 0;
+    }
+
+    .biz-words-container {
+      margin-top: 20px;
+    }
+
+    .biz-name {
+      text-align: center;
+      font-family: 'Anton', sans-serif;
+      color: #252526;
+      font-size: 1.3rem;
+      margin-bottom: 5px;
+    }
+
+    .biz-title {
+      text-align: center;
+      font-family: 'Nunito', sans-serif;
+      color: #252526;
+      font-size: 0.8rem;
+    }
+
+    .biz-shape {
+      background: linear-gradient(135deg, #ff4d79 0%, #ea2e6d 100%);
+      transform: rotate(50deg);
+      width: 100%;
+      height: 308px;
+      position: absolute;
+      top: -80px;
+      right: -80px;
+      border-radius: 50px;
+      z-index: -1;
+    }
+
+    .biz-contact-box {
+      position: relative;
+      margin-top: 60px;
+    }
+
+    .biz-contact-box a {
+      display: block;
+      font-size: 11px;
+      color: #252526;
+      letter-spacing: 0.15rem;
+      font-family: 'Nunito', sans-serif;
+      font-weight: 300;
+      margin-bottom: 10px;
+      padding-left: 35px;
+      background-repeat: no-repeat;
+      background-position: 0 2px;
+    }
+
+    .biz-email a {
+      background-image: url('https://drewgoff.com/images/business-card/email.svg');
+    }
+
+    .biz-cell a {
+      background-image: url('https://drewgoff.com/images/business-card/cellphone.svg');
+    }
+
+    .biz-portfolio a {
+      background-image: url('https://drewgoff.com/images/business-card/suitcase.svg');
+    }
+
+    @media (max-width: 470px) {
+      .biz-card-a, .biz-card-b {
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 18px;
+      }
+
+      .biz-shape {
+        transform: rotate(77deg);
+      }
+
+      .biz-contact-box {
+        transform: rotate(-77deg);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container py-5">
+    <div class="row justify-content-center">
+
+      <!-- Business Card 1 -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="row">
+          <div class="col-5 biz-card-a">
+            <div class="biz-headshot" style="background-image: url('https://drewgoff.com/images/business-card/drew-biz.jpg');"></div>
+            <div class="biz-words-container">
+              <div class="biz-name">Drew Goff</div>
+              <div class="biz-title">UX / UI Designer</div>
+            </div>
+          </div>
+          <div class="col-7 biz-card-b position-relative">
+            <div class="biz-shape"></div>
+            <div class="biz-contact-box">
+              <div class="biz-email">
+                <a href="mailto:drew@drewgoff.com">drew@drewgoff.com</a>
+              </div>
+              <div class="biz-cell">
+                <a href="tel:317-910-5607">317-910-5607</a>
+              </div>
+              <div class="biz-portfolio">
+                <a href="https://drewgoff.com">https://drewgoff.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Business Card 2 (Duplicate for demo) -->
+      
+
+    </div>
+  </div>
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

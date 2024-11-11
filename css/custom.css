@@ -1,0 +1,127 @@
+:root{
+	--primary:#FAA392;
+}
+
+.innerCard{
+	
+}
+.image_div{
+	height: 230px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	width: 100%;
+	background: var(--primary);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.userImg{
+	height: 200px;
+	width: 200px;
+	
+	border-radius: 50%; 
+}
+.userImg img{
+	width: 100%;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	height: 100%;
+}
+
+
+
+.crad-v {
+    width: 100%;
+    height: 300px;
+    background: white;
+    padding: 10px;
+}
+
+.imglogo-v {
+    
+    position: relative;
+    top: 0px;
+}
+
+
+.com-img {
+    border-radius: 10px;
+    border: 6px double #1c3a6b;
+  width:100px;
+  height:100px;
+}
+
+.com-img  img{
+	width: 100%;
+	height: 100%;
+}
+
+span.mobileno {
+    position: relative;
+    left: 39px;
+    top: -10px;
+}
+
+.cionbox {
+    background: #1c3a6b;
+    width: 34px;
+    height: 34px;
+    float: left;
+    border-radius: 50%;
+    text-align: center;
+}
+.op {
+    position: relative;
+    left: 10px;
+}
+
+.card-icon-new {
+    border-radius: 50%;
+    color: white;
+    font-size: 16px;
+    position: relative;
+    top: 6px;
+    text-align: center;
+}
+
+.crad-v {
+    width: 525px;
+    height: 300px;
+    background: url('../images/memberimg/istockphoto-1491636390-612x612.jpg');
+    padding: 10px;
+    border: 2px solid #fff;
+    -webkit-box-shadow: 0px 0px 2px 5px #0000002a;
+    box-shadow: 0px 0px 2px 2px #0000002a;
+    margin-bottom: 31px;
+}
+
+.text-vcard {
+    padding: 42px 0px;
+}
+
+
+div#top-vcard:before {
+    content: "";
+    position: absolute;
+    height: 91px;
+    width: 34px;
+    text-align: left ! important;
+    background:#1c3a6b;
+    left: 15px;
+    top: -12px;
+    border-radius: 0px 0px 14px 15px;
+}
+
+
+strong.font-bolder-new {
+    font-size: 16px;
+    font-weight: bolder ! important;
+}
+
+
+/* register page form design  */
+.login_area{
+    background: url('../images/memberimg/900w-72Jmt_raM5o.webp')no-repeat;
+    background-size: cover;
+    background-position: center;
+}
